@@ -5,4 +5,4 @@ from blog.models import Country
 class CountrySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Country
-        fields = ('country', 'capital', 'region')
+        fields = ('id', 'country', 'capital', 'region')
